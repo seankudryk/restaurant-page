@@ -1,0 +1,79 @@
+body {
+    background-image: url("https://pbs.twimg.com/media/FqU6wCUXoAEg_rM?format=png&name=360x360");
+    background-repeat: repeat;
+}
+
+#chef {
+    box-shadow: 30px 30px 15px rgb(89, 255, 0);
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 72px;
+}
+
+h2 {
+    color: rgb(55, 255, 0);
+}
+
+#forbidden-wisdom {
+    position: absolute;
+    color: rgb(255, 0, 191);
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    /* filter: drop-shadow(2px 2px 2px white); */
+    font-size: 12px;
+}
+
+#disclaimer {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+#buy {
+    height: 30px;
+    width: 100px;
+    border: none;
+}
+
+#generational-wealth-generator {
+    width: 100vw;
+}
+
+span {
+    background-color: white;
+}
+
+#menu-description {
+    color: white;
+}
+
+#menu-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item > p {
+    color: rgb(0, 255, 0);
+}
+
+#me {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 62px;
+    width: 700px;
+    color: white;
+    filter: drop-shadow(7px 7px 2px pink) 
+            drop-shadow(14px 14px 2px rgb(30, 255, 0));
+}
+
+#abraxas {
+    position: absolute;
+    width: 600px;
+}
